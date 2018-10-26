@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Claims - CASHIN</title>
     <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
     <div id="overlay"></div>
     <div class="wrapper">
-        
         <div class="nav">
             <div class="appName">CashIn</div>
             <ul class="menu" id="smallnav">
@@ -40,6 +40,11 @@
     </div>
     <div class="float_btn" onclick="floatBtn()"><span class="pluss">+</span></div>
     <script src="../js/jquery.js"></script>
+    <script src="../cordova.js"></script>
+    <script src="../js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
     <script>
             $('#showw').click(function(){                
                 $('#smallnav').show(500);
